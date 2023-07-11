@@ -19,10 +19,16 @@ First, we install the required libraries with the following command:
 
 The Version of these libraries, that I use, is in the requirements.txt file
 
-##### 1. Load main page & save that
+##### 1. Load the main page & save that
 
 ##### 2. Extract all data of Products
 
- run Jupiter file that name is "DizaGallery_Scrap.ipynb" to extract names, links, designers, prices.
+ run the Jupiter file that name is "DizaGallery_Scrap.ipynb" to extract names, links, designers, and prices.
 
-##### 3. 
+##### 3. Run extract_images.py
+to extract all images for each product & save that own folder
+
+##### 4. Run extract_details.py
+to extract all details for each product & save that on a CSV file
+if I want to extract all text on the product page, run "extract_ipibox.py"
+
