@@ -30,5 +30,6 @@ to extract all images for each product & save that own folder
 
 ##### 4. Run extract_details.py
 to extract all details for each product & save that on a CSV file
+ | 
 if I want to extract all text on the product page, run "extract_ipibox.py"
 
