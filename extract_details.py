@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-df = pd.read_csv('files.csv')
-urls = df['Links'][93:99]
+df = pd.read_csv('all_products_with_deatails.csv')
+urls = df['Links']
 
 # Set up the webdriver
 driver = webdriver.Chrome()
@@ -75,6 +75,4 @@ all_data = {
 
 df = pd.DataFrame(all_data)
 df.to_csv('files2test.csv')
-
-
 
